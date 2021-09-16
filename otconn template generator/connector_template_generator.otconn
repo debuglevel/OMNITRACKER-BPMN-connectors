@@ -2,7 +2,7 @@
 <connectorPackage guid="{8f9f7351-4d6b-428e-84e2-7efd401d0608}" category="Super Admin Features" language="PowerShell">
     <script>
 
-    <![CDATA[
+        <![CDATA[
     ########################################################################################################
     ###################     Generate Connector Template File
     ########################################################################################################
@@ -160,8 +160,8 @@
             <input>
                 <inputParameter name="ConnectorPackageName" type="String" isArray="false" description="ConnectorPackageName (mandatory)" priority="1"/>
                 <inputParameter name="ConnectorName" type="String" isArray="false" description="ConnectorName" priority="2"/>
-				<inputParameter name="Path" type="String" isArray="false" description="Path" priority="3"/>
-				<inputParameter name="WithErrorHandling" type="Boolean" isArray="false" description="WithErrorHandling" priority="4"/>
+                <inputParameter name="Path" type="String" isArray="false" description="Path" priority="3"/>
+                <inputParameter name="WithErrorHandling" type="Boolean" isArray="false" description="WithErrorHandling" priority="4"/>
                 <inputParameter name="strucConnectorVariables" type="strucConnectorVariables" isArray="true" description="strucConnectorVariables (mandatory)" priority="5"/>
             </input>
             <output>

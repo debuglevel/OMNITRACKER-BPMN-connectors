@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-	<connectorPackage guid="{e2e65dee-2e97-49bd-9749-57d5590cd298}" category="MS Teams Functions" language="PowerShell">
-		<script>
-			<![CDATA[
+<connectorPackage guid="{e2e65dee-2e97-49bd-9749-57d5590cd298}" category="MS Teams Functions" language="PowerShell">
+	<script>
+		<![CDATA[
 				if ($ctx.ConnectorName -eq 'Send multipurpose Message')
 				{
 					# Important Parameters
@@ -170,7 +170,7 @@
        				$ctx.Output('ErrorMessage') = $ErrorMessage
 				}
 			]]>
-		</script>
+	</script>
 	<connectors>
 		<connector name="Send multipurpose Message" description="Send Message to MS Teams" guid="25cfb437-a60f-4303-a73b-b65c5fdb1063">
 			<input>
@@ -215,7 +215,7 @@
 				<outputParameter name="HasError" type="Boolean" isArray="False" description="HasError boolean" priority="1"/>
 				<outputParameter name="ErrorMessage" type="String" isArray="False" description="Optional error message" priority="2"/>
 			</output>
-		</connector> 
+		</connector>
 		<connector name="Remove Team" description="Deletion of a Team in MS Teams" guid="53c404e7-bb0c-4781-a7a0-6fceda4ce49e">
 			<input>
 				<inputParameter name="GroupID" type="String" isArray="false" description="GroupID" priority="1"/>
@@ -227,6 +227,6 @@
 				<outputParameter name="HasError" type="Boolean" isArray="False" description="HasError boolean" priority="1"/>
 				<outputParameter name="ErrorMessage" type="String" isArray="False" description="Optional error message" priority="2"/>
 			</output>
-		</connector> 
+		</connector>
 	</connectors>
 </connectorPackage>

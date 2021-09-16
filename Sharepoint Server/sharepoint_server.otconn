@@ -188,7 +188,7 @@ Remove-PSSession $Session
         <inputParameter name="Sharepoint Computername" type="String" isArray="false" description="Sharepoint computername" priority="1"/>
         <inputParameter name="Sharepoint User" type="String" isArray="false" description="Sharepoint User" priority="3"/>
         <inputParameter name="Sharepoint User Password" type="String" isArray="false" description="Sharepoint User password" priority="4"/>
-	<inputParameter name="Sharepoint Path" type="String" isArray="false" description="Sharepoint Path" priority="5"/>
+        <inputParameter name="Sharepoint Path" type="String" isArray="false" description="Sharepoint Path" priority="5"/>
         <inputParameter name="Target Library" type="String" isArray="false" description="Sharepoint Document library name" priority="6"/>
         <inputParameter name="Filename" type="String" isArray="false" description="Sharepoint Document file name" priority="7"/>
         <inputParameter name="New Filename" type="String" isArray="false" description="New File name" priority="8"/>
